@@ -1,0 +1,12 @@
+/* this will make the background image cover horizontally and vertically*/
+
+html { 
+    background: url(assets/mountains.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 3em;
+    color: #fff;
+    font-family:'Raleway','Arial';
+}
